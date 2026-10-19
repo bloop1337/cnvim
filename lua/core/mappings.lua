@@ -3,11 +3,11 @@ local nmap = function(map, callback)
 end
 
 -- explorer
-nmap("<C-n>", "<cmd>Ex<cr>")
+nmap("<C-n>", "<cmd>Dired<cr>")
 -- open terminal emulator
 nmap("<C-t>", function()
-	vim.cmd('below term')
-	vim.cmd('resize 5')
+	vim.cmd('tabe')
+	vim.cmd('term')
 end) 
 
 -- exit from terminal mod by esc
