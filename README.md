@@ -1,4 +1,4 @@
 ## Installation
 ```bash
-git clone https://github.com/bloopniy/cnvim.git ~/.config/nvim && nvim
+git clone https://github.com/bloop1337/cnvim.git ~/.config/nvim && nvim
 ```
