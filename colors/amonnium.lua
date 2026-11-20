@@ -27,7 +27,7 @@ M.colors = {
 	sea_green   = "#c0d6c0",
 	black       = "#181818",
 	white       = "#ffffff",
-	search 		= "#add6ff", -- 26
+	search 		= "#add6ff",
 	yellow		= "#cca700",
 	violet		= "#da70d6",
 	blue		= "#179fff",
@@ -50,6 +50,7 @@ hi_link("cmakeModule", 	                             "Normal")
 hi_link("@variable",   	                             "Normal")
 hi_link("Identifier",  	                             "Normal")
 hi_link("@lsp.type.namespace.cpp",                   "Normal")
+hi_link("cErrInParen",                               "Normal")
 hi_link("@lsp.type.class.cpp",                       "Normal")
 hi_link("@lsp.type.enum.cpp",                        "Normal")
 hi_link("CurSearch",                            	 "Visual")

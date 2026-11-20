@@ -13,6 +13,7 @@ return {
 
     		keybinds = {
     		    dired_enter = "<CR>",
+    		    dired_create = "%",
     		    dired_back = "-",
     		    dired_up = "_",
     		    dired_rename = "R",
